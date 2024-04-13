@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>IOT</title>
+    <style>
+      body {
+        background-image: url("amb.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      data dashboard
+      <hr />
+    </h1>
+    <div id="mydata">
+      <ul>
+        <li>temperature : {{ t }}</li>
+        <li>location : <a href="http://maps.google.com/maps?q=loc:{{ l }}">location</a>  </li>
+        <li>pulses : {{ p }}</li>
+      </ul>
+    </div>
+  </body>
+</html>
